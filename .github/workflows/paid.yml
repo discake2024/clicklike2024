@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: tld
+    runs-on: ttd
     steps:
       - name: powershell
         shell: cmd
